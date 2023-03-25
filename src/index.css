@@ -5,8 +5,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
-.header-bg {
-  background-color: #3e3e3e;
+/* HEADER */
+header {
+  background-color: #131313;
+  min-height: 220px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px 0 30px;
+}
+
+.header-content :hover {
+  color: #AA3D3D;
+  cursor: pointer;
+}
+
+.header-menu p {
+  font-size: 30px;
+}
+
+.header-menu img {
+  height: 50px;
+}
+
+.header-avatar {
+  margin-top: 35px;
+}
+
+.header-avatar img {
+  height: 35px;
+}
+
+.header-avatar :hover {
+  height: 36px;
+}
+
+
+/* header Security question */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #313131;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 35px 0 35px;
+}
+
+.text {
+  text-align: center;
+  margin: 0;
+}
+
+.button {
+  background-color: #AA3D3D;
+  color: #fff;
+  border: 1px solid rgb(202, 74, 74);
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-left: 20px;
+  font-size: 18px;
 }
