@@ -3,6 +3,7 @@ import React from 'react'
 export const CardCategory = () => {
     return (
         <div className="category-section">
+            {/* mapeo de las distintas categorias */}
             <article class="category-container">
                 <div class="image-section-container">
                     <img src="https://www.circalasvegas.com/wp-content/uploads/2021/01/MegaBar-72dpi.jpg" alt="imagen" class="rounded-image" />

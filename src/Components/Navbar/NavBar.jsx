@@ -2,6 +2,6 @@
 
 export const NavBar = () => {
     return (
-        <div className="header-menu" onClick={() => alert('open navBAr')}><p>☰</p></div>
+        <div className="header-menu" onClick={() => alert('open navBar')}><p>☰</p></div>
     )
 }

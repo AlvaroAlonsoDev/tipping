@@ -12,9 +12,7 @@ export const Header = () => {
                 <Logo />
                 <Avatar />
             </div>
-
             <Slogan />
-
         </header>
     )
 }
